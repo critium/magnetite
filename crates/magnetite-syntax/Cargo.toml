@@ -1,0 +1,10 @@
+[package]
+name = "magnetite-syntax"
+description = "Markdown extraction, lexer and parser for Magnetite (.mgt.md) source files"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true

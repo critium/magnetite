@@ -1,0 +1,10 @@
+[package]
+name = "magnetite-runtime"
+description = "Types that Magnetite-generated code depends on: Money, Percent, DomainError"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true

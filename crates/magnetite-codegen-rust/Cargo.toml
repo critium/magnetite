@@ -1,0 +1,13 @@
+[package]
+name = "magnetite-codegen-rust"
+description = "Generates a readable Rust crate from a checked Magnetite package"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[dependencies]
+magnetite-check.workspace = true
+
+[lints]
+workspace = true
